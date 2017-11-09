@@ -17,7 +17,23 @@ scrapture.py 는 홈페이지에서 정보를 긁어와 필터링 해줍니다.
 
 - - -
 
+요구 사항
+---------
+- inhun_bot.py (main)
+  - __python 3.4.2+__
+  - __discord.py__
+  - __aiohttp__ library
+  - __websocket__ library
+  - __datetime__ library
+
+- scrapture.py
+  - __requests__ library
+  - __BeautifulSoup4__ library
+  - __regex__ library
+
+- - -
+
 실행
 -----------
 
-$python3 inhun_bot.py
+>python3 inhun_bot.py
